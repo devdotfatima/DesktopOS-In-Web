@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/devdotfatima/DesktopOS-In-Web/issues"
   },
-  "homepage": "https://github.com/devdotfatima/DesktopOS-In-Web#readme"
+  "homepage": "https://github.com/devdotfatima/DesktopOS-In-Web#readme",
+  "dependencies": {
+    "next": "^13.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
